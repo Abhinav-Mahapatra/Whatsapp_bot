@@ -10,14 +10,14 @@
 
 from selenium import webdriver
 import time
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary        #Incase you wanna use Geckodriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
     
 def whtsapp_spam(target,message,times):
     #opening the browser and waiting for the login
-    driver = webdriver.Chrome(r'C:\ChromeDriver\chromedriver.exe')
+    driver = webdriver.Chrome(r'C:\ChromeDriver\chromedriver.exe')        #Change the directory to suit where your ChromeDriver is placed
     driver.get("https://web.whatsapp.com/")
     time.sleep(20)
 
