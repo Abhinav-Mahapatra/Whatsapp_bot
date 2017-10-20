@@ -17,7 +17,7 @@ from selenium.webdriver.common.by import By
     
 def whtsapp_spam(target,message,times):
     #opening the browser and waiting for the login
-    driver = webdriver.Chrome(r'C:\Python27\ChromeDriver\chromedriver.exe')
+    driver = webdriver.Chrome(r'C:\ChromeDriver\chromedriver.exe')
     driver.get("https://web.whatsapp.com/")
     time.sleep(20)
 
